@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/marcopeg/.nvm/versions/node/v10.15.0/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js book serve
+
+PATH: 
+  /anaconda3/bin:/Users/marcopeg/.nvm/versions/node/v10.15.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/marcopeg/Library/Android/sdk/platform-tools:/Users/marcopeg/Library/Android/sdk/tools:/Users/marcopeg/Library/Android/sdk/tools/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/marcopeg/dev/pigtail/gopigtail.github.io/package.json: Unexpected token } in JSON at position 324
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "gopigtail.github.io",
+    "version": "1.0.0",
+    "description": "Documentation",
+    "main": "index.js",
+    "directories": {
+      "doc": "docs"
+    },
+    "scripts": {
+      "build": "./node_modules/babel-cli/bin/babel.js src --out-dir lib",
+      "start": "./node_modules/babel-cli/bin/babel.js --watch src --out-dir lib",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gopigtail/gopigtail.github.io.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/gopigtail/gopigtail.github.io/issues"
+    },
+    "homepage": "https://github.com/gopigtail/gopigtail.github.io#readme",
+    "dependencies": {
+      "gitbook-cli": "^2.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
