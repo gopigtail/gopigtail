@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/gopigtail/gopigtail.github.io#readme",
   "dependencies": {
-    "gitbook-cli": "^2.3.2"
+    "gitbook-cli": "^2.3.2",
+    "lodash": ">=4.17.5"
   }
 }
